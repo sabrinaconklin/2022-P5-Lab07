@@ -7,7 +7,7 @@ public class Lab07 extends Applet {
 
         //draw mountains
         Mountain.drawMountains(g);
-        Mountain.drawSnowCaps(g);
+        Mountain.drawGrass(g);
         Mountain.drawSnowPatches(g);
         Mountain.drawSnow(g);
 
@@ -17,8 +17,9 @@ public class Lab07 extends Applet {
         Tree.drawLeaves(g);
 
         //draw Pond
-        Pond.drawWaves(g);
         Pond.drawPond(g);
+        Pond.drawLilyPads(g);
+
 
     }
 
